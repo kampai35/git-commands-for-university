@@ -4,3 +4,14 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+  align-items: center;
+  background-color: #3E428C;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 7.5rem);
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}

@@ -1,3 +1,20 @@
 <header>
-  <h1>Simple header</h1>
+  <div class="title-wrapper">
+    <h1>Simple header</h1>
+  </div>
+
+  <div class="menu-wrapper">
+    <div
+      (click)="redirectTo(MenuItem.HomePage)"
+      class="menu-item"
+    >
+      <span>HomePage</span>
+    </div>
+    <div
+      (click)="redirectTo(MenuItem.CommandsPage)"
+      class="menu-item"
+    >
+      <span>CommandsPage</span>
+    </div>
+  </div>
 </header>
