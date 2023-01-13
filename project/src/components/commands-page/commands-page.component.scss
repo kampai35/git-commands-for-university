@@ -1,0 +1,20 @@
+.container {
+  .cp-text-container-wrapper {
+    padding: 2rem 0 2rem 0;
+
+    h1 {
+      color: white;
+    }
+  }
+  .iframe-wrapper {
+    height: 100%;
+    width: 100%;
+
+    iframe {
+      border: none;
+      height: calc(100% - 2rem);
+      width: 100%;
+
+    }
+  }
+}
