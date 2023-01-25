@@ -1,5 +1,4 @@
 # Git commands
-[![npm version][2]][3] //to change
 
 A project within the framework of a subject at the university - "Version control tools". It is intended to test in practice the possibilities that git offers. Accordingly, the repository includes the simplest, basic web application template.
 
